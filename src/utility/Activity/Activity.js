@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './activity.css';
+import './Activity.css';
 import { Link } from 'react-router-dom';
 class Activity extends Component{
 

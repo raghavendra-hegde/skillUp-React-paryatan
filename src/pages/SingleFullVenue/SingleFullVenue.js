@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './single-full-venue.css';
+import './SingleFullVenue.css';
 import axios from 'axios';
 import Point from './Point';
 
@@ -59,7 +59,7 @@ class SingleFullVenue extends Component{
                     </div>
 
                     <div className="col s4 right-details">
-                        <div className="price-per-day">Rs {sv.pricePerNight * 72} <span>per day</span></div>
+                        <div className="price-per-day">${sv.pricePerNight} <span>per day</span></div>
                         <div className="rating">{sv.rating}</div>
                         <div className="col s6">
                             Check-In

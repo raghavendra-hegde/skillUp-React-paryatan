@@ -3,10 +3,8 @@ import Venue from './Venue';
 import './Venue.css'  
 
 function Venues(props){
-    console.log('------------------Venue----------------------------')
     console.log(props)
     const venues = props.venues.map((venue, i)=>{
-        
         console.log(venue)
         return(
             <div key={i} className="col m6 l3">
