@@ -13,5 +13,10 @@ This project includes all topics (React itself, router, redux)learnt as part of 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
+# How to run this application locally
 
+  1.  Install Node and npm
+  2.  Inside project folder, open tereminal and download all dependencies by -> $ npm install
+  3.  Now to start application, $ npm start
 
+Thank you,
